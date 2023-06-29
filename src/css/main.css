@@ -1,0 +1,30 @@
+html, body {
+    font-size: 16px;
+}
+
+
+.header {
+    background-color: rgba(0, 0, 0, .4);
+    border: .125rem solid rgba(255, 255, 255, 0.2);
+}
+.header .header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inner {
+    width: 100%;
+    max-width: 70.5rem;
+    padding-inline: 1.2rem;
+    margin-inside: auto;
+}
+
+.logo {}
+.logo .logo__img {}
+.logo .logo__text {}
+.logo .logo__text.logo__text--highlight {}
+
+.menu {}
+.menu .menu__item {}
+.menu .menu__item.menu__item--active {}
